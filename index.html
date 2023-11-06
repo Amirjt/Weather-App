@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Weather App</title>
+</head>
+<body class="bg-slate-800 flex justify-center items-center h-screen text-white">
+    <div class="app flex flex-col   items-center  gap-10  bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 w-[400px] p-5 rounded-2xl shadow-2xl">
+        <div class="top w-full flex justify-around items-center">
+            <input placeholder="City Name" type="text" class="outline-none px-4 py-2 rounded-2xl bg-transparent border border-solid border-gray-400 placeholder:text-sm text-white">
+            <img width="40" class="border border-gray-400 rounded-full p-3 bg-white" src="/images/search.png" alt="">
+        </div>
+        <div class="main flex flex-col justify-center items-center text-4xl gap-3">
+            <img class="weather-img" src="/images/snow.png"  alt="">
+            <span class="tempreture">22°c</span>
+            <span class="location">Iran</span>
+        </div>
+        <div class="bottom flex w-full mx-auto justify-around">
+            <div class="left flex items-center gap-4">
+                <img width="30" src="/images/humidity.png" alt="">
+                <div class="flex flex-col items-center">
+                    <span class="humidity">53%</span>
+                    <span>Humidity</span>
+                </div>
+            </div>
+            <div class="right flex items-center justify-around gap-4">
+                <img width="30" src="/images/wind.png" alt="">
+                <div class="flex flex-col">
+                <span class="wind-speed" >5.66 km/h</span>
+                <span>Wind Speed</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
