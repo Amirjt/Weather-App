@@ -9,12 +9,12 @@
 <body class="bg-slate-800 flex justify-center items-center h-screen text-white">
     <div class="app flex flex-col   items-center  gap-10  bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 w-[400px] p-5 rounded-2xl shadow-2xl">
         <div class="top w-full flex justify-around items-center">
-            <input placeholder="City Name" type="text" class="outline-none px-4 py-2 rounded-2xl bg-transparent border border-solid border-gray-400 placeholder:text-sm text-white">
-            <img width="40" class="border border-gray-400 rounded-full p-3 bg-white" src="/images/search.png" alt="">
+            <input placeholder="City Name" type="text" class="input outline-none px-4 py-2 rounded-2xl bg-transparent border border-solid border-gray-400 placeholder:text-sm text-white">
+            <img width="40" class="search border border-gray-400 rounded-full p-3 bg-white" src="/images/search.png" alt="">
         </div>
         <div class="main flex flex-col justify-center items-center text-4xl gap-3">
             <img class="weather-img" src="/images/snow.png"  alt="">
-            <span class="tempreture">22°c</span>
+            <span class="temp">22°c</span>
             <span class="location">Iran</span>
         </div>
         <div class="bottom flex w-full mx-auto justify-around">
@@ -34,5 +34,7 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
